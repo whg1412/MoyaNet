@@ -1,3 +1,33 @@
-PODFILE CHECKSUM: 0b23c4c4260cf26cf7f1233143baaf884e17d8c1
+PODS:
+  - Alamofire (4.4.0)
+  - Moya (8.0.4):
+    - Moya/Core (= 8.0.4)
+  - Moya/Core (8.0.4):
+    - Alamofire (~> 4.1)
+    - Result (~> 3.0)
+  - Moya/RxSwift (8.0.4):
+    - Moya/Core
+    - RxSwift (~> 3.0)
+  - ObjectMapper (2.2.6)
+  - PKHUD (4.2.2)
+  - Result (3.2.2)
+  - RxSwift (3.1.0)
+
+DEPENDENCIES:
+  - Moya (~> 8.0.0)
+  - Moya/RxSwift
+  - ObjectMapper (~> 2.2.2)
+  - PKHUD (~> 4.0)
+  - RxSwift (~> 3.1.0)
+
+SPEC CHECKSUMS:
+  Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
+  Moya: a08bc060c7a44eee27447b239ed33a189b641e2b
+  ObjectMapper: 042708195cc46c20871cbcbec0453826398273fd
+  PKHUD: 9a3599e04d57676ec14746c40e423a52fb6588c0
+  Result: 4edd39003fdccf281d418ee1b006571f70123250
+  RxSwift: 83ff553e7593fdfdcb2562933a64c0284dffdadc
+
+PODFILE CHECKSUM: ae7150e16d3344f1f9a187061b4f214d274c6bf5
 
 COCOAPODS: 1.2.0.rc.1
