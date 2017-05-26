@@ -14,6 +14,12 @@
 		9F82CA6A1ED81DF000198616 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F82CA681ED81DF000198616 /* LaunchScreen.storyboard */; };
 		9F82CA751ED81DF100198616 /* MoyaNetCreateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F82CA741ED81DF100198616 /* MoyaNetCreateTests.swift */; };
 		9F82CA801ED81DF100198616 /* MoyaNetCreateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F82CA7F1ED81DF100198616 /* MoyaNetCreateUITests.swift */; };
+		9F82CAA11ED828CF00198616 /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F82CA9E1ED828CF00198616 /* BaseModel.swift */; };
+		9F82CAA21ED828CF00198616 /* MeetingJoinedListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F82CA9F1ED828CF00198616 /* MeetingJoinedListModel.swift */; };
+		9F82CAA31ED828CF00198616 /* SelectionRecordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F82CAA01ED828CF00198616 /* SelectionRecordModel.swift */; };
+		9F82CAA61ED828EB00198616 /* NetAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F82CAA41ED828EB00198616 /* NetAPI.swift */; };
+		9F82CAA71ED828EB00198616 /* NetProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F82CAA51ED828EB00198616 /* NetProvider.swift */; };
+		9F82CAAA1ED8290400198616 /* HUDManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F82CAA91ED8290300198616 /* HUDManager.swift */; };
 		A607C656A3F85E8C1A7E4C8E /* Pods_MoyaNetCreateTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60A17CE224FDD3A7B90A3CFA /* Pods_MoyaNetCreateTests.framework */; };
 		C916E8E14DD4D64EF9E93933 /* Pods_MoyaNetCreateUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCFCF243C83B14C72DC731C5 /* Pods_MoyaNetCreateUITests.framework */; };
 		D186F3BE1887701929E71EA5 /* Pods_MoyaNetCreate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EC62439B3CA99CB79F2E370 /* Pods_MoyaNetCreate.framework */; };
@@ -54,6 +60,12 @@
 		9F82CA7B1ED81DF100198616 /* MoyaNetCreateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoyaNetCreateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F82CA7F1ED81DF100198616 /* MoyaNetCreateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoyaNetCreateUITests.swift; sourceTree = "<group>"; };
 		9F82CA811ED81DF100198616 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F82CA9E1ED828CF00198616 /* BaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
+		9F82CA9F1ED828CF00198616 /* MeetingJoinedListModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeetingJoinedListModel.swift; sourceTree = "<group>"; };
+		9F82CAA01ED828CF00198616 /* SelectionRecordModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectionRecordModel.swift; sourceTree = "<group>"; };
+		9F82CAA41ED828EB00198616 /* NetAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetAPI.swift; sourceTree = "<group>"; };
+		9F82CAA51ED828EB00198616 /* NetProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetProvider.swift; sourceTree = "<group>"; };
+		9F82CAA91ED8290300198616 /* HUDManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HUDManager.swift; sourceTree = "<group>"; };
 		A329F3828D498EECB31F2C54 /* Pods-MoyaNetCreateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoyaNetCreateTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MoyaNetCreateTests/Pods-MoyaNetCreateTests.release.xcconfig"; sourceTree = "<group>"; };
 		D1BF080309DECAA60E99852E /* Pods-MoyaNetCreateUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoyaNetCreateUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MoyaNetCreateUITests/Pods-MoyaNetCreateUITests.release.xcconfig"; sourceTree = "<group>"; };
 		D6E5F9E6DA5F936E430138EF /* Pods-MoyaNetCreate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoyaNetCreate.release.xcconfig"; path = "Pods/Target Support Files/Pods-MoyaNetCreate/Pods-MoyaNetCreate.release.xcconfig"; sourceTree = "<group>"; };
@@ -124,6 +136,9 @@
 		9F82CA5E1ED81DF000198616 /* MoyaNetCreate */ = {
 			isa = PBXGroup;
 			children = (
+				9F82CAA81ED828FE00198616 /* HUD */,
+				9F82CA9D1ED828AA00198616 /* 网络请求 */,
+				9F82CA9C1ED828A000198616 /* Model */,
 				9F82CA5F1ED81DF000198616 /* AppDelegate.swift */,
 				9F82CA611ED81DF000198616 /* ViewController.swift */,
 				9F82CA631ED81DF000198616 /* Main.storyboard */,
@@ -150,6 +165,33 @@
 				9F82CA811ED81DF100198616 /* Info.plist */,
 			);
 			path = MoyaNetCreateUITests;
+			sourceTree = "<group>";
+		};
+		9F82CA9C1ED828A000198616 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9F82CA9E1ED828CF00198616 /* BaseModel.swift */,
+				9F82CA9F1ED828CF00198616 /* MeetingJoinedListModel.swift */,
+				9F82CAA01ED828CF00198616 /* SelectionRecordModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		9F82CA9D1ED828AA00198616 /* 网络请求 */ = {
+			isa = PBXGroup;
+			children = (
+				9F82CAA41ED828EB00198616 /* NetAPI.swift */,
+				9F82CAA51ED828EB00198616 /* NetProvider.swift */,
+			);
+			name = "网络请求";
+			sourceTree = "<group>";
+		};
+		9F82CAA81ED828FE00198616 /* HUD */ = {
+			isa = PBXGroup;
+			children = (
+				9F82CAA91ED8290300198616 /* HUDManager.swift */,
+			);
+			name = HUD;
 			sourceTree = "<group>";
 		};
 		D5174B8ABDE434E2D714C102 /* Pods */ = {
@@ -446,8 +488,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F82CAA61ED828EB00198616 /* NetAPI.swift in Sources */,
+				9F82CAA11ED828CF00198616 /* BaseModel.swift in Sources */,
+				9F82CAA31ED828CF00198616 /* SelectionRecordModel.swift in Sources */,
 				9F82CA621ED81DF000198616 /* ViewController.swift in Sources */,
+				9F82CAA21ED828CF00198616 /* MeetingJoinedListModel.swift in Sources */,
+				9F82CAA71ED828EB00198616 /* NetProvider.swift in Sources */,
 				9F82CA601ED81DF000198616 /* AppDelegate.swift in Sources */,
+				9F82CAAA1ED8290400198616 /* HUDManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -698,6 +746,7 @@
 				9F82CA861ED81DF100198616 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9F82CA871ED81DF100198616 /* Build configuration list for PBXNativeTarget "MoyaNetCreateTests" */ = {
 			isa = XCConfigurationList;
@@ -706,6 +755,7 @@
 				9F82CA891ED81DF100198616 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9F82CA8A1ED81DF100198616 /* Build configuration list for PBXNativeTarget "MoyaNetCreateUITests" */ = {
 			isa = XCConfigurationList;
@@ -714,6 +764,7 @@
 				9F82CA8C1ED81DF100198616 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
